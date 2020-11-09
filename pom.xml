@@ -96,7 +96,7 @@
         <dependency>
 		    <groupId>commons-codec</groupId>
 		    <artifactId>commons-codec</artifactId>
-		    <version>1.12</version>
+		    <version>1.15</version>
 		</dependency>
 
         <!-- Test dependencies -->
@@ -147,7 +147,7 @@
                             <mainClass>org.owasp.validator.html.AntiSamy</mainClass>
                             <packageName>org.owasp.validator.html</packageName>
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-                            <classpathPrefix />
+                            <classpathPrefix/>
                         </manifest>
                     </archive>
                 </configuration>
